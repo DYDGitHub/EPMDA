@@ -22,8 +22,6 @@ run pythobn 5FoldCV.py
 ```
 run python LODOCV.py
 ```
-
-
 ## data
 ```
 miRNA.xlsx            the mapping file of miRNAs
@@ -32,7 +30,6 @@ miRNA-disease.txt     miRNA-disease associations
 Gaussian_disease.csv  Gaussian kernel similarity between each pair of diseases
 Gaussian_miRNA.csv    Gaussian kernel similarity between each pair of miRNAs
 ```
-
 ## predicted results
 ```
 data/newPredicted.csv the new predicted scores of all unknown disease-miRNA pairs
