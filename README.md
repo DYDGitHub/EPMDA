@@ -1,6 +1,6 @@
 # EPMDA
 the implementation of EPMDA
-## Required python packages
+## 1. Required python packages
 ```
 python 2.7
 sklearn
@@ -9,20 +9,20 @@ re
 multiprocessing
 numpy
 ```
-## How to use
-### Predict new miRNA-disease pair
+## 2. How to use
+### 2.1 Predict new miRNA-disease pair
 ```
 run python EPMDA.py
 ```
-### 5-fold cross validation
+### 2.2 5-fold cross validation
 ```
 run pythobn 5FoldCV.py
 ```
-### Leave one disease out cross validtaion
+### 2.3 Leave one disease out cross validtaion
 ```
 run python LODOCV.py
 ```
-## Data
+## 3. Data
 ```
 miRNA.xlsx            the mapping file of miRNAs
 disease.xlsx          the mapping file of diseases
@@ -30,6 +30,6 @@ miRNA-disease.txt     miRNA-disease associations
 Gaussian_disease.csv  Gaussian kernel similarity between each pair of diseases
 Gaussian_miRNA.csv    Gaussian kernel similarity between each pair of miRNAs
 ```
-## Predicted results
+## 4. Predicted results
 ```
 data/newPredicted.csv the new predicted scores of all unknown disease-miRNA pairs
