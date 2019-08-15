@@ -16,7 +16,7 @@ run python EPMDA.py
 ```
 ### 2.2 5-fold cross validation
 ```
-run pythobn 5FoldCV.py
+run python 5FoldCV.py
 ```
 ### 2.3 Leave one disease out cross validtaion
 ```
