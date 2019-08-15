@@ -26,7 +26,7 @@ run python LODOCV.py
 ```
 miRNA.xlsx            the mapping file of miRNAs
 disease.xlsx          the mapping file of diseases
-miRNA-disease.txt     miRNA-disease associations
+miRNA-disease.txt     each row represents an miRNA-disease pair, the two columns represent miRNA and disease index respectively
 Gaussian_disease.csv  Gaussian kernel similarity between each pair of diseases
 Gaussian_miRNA.csv    Gaussian kernel similarity between each pair of miRNAs
 ```
