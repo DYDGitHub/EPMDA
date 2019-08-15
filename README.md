@@ -18,7 +18,7 @@ run python EPMDA.py
 ```
 run python 5FoldCV.py
 ```
-### 2.3 Leave one disease out cross validtaion
+### 2.3 Leave one disease out cross validation
 ```
 run python LODOCV.py
 ```
